@@ -45,3 +45,24 @@ Source: [github.com/torvalds](https://github.com/torvalds/linux/blob/master/scri
 ```md
 ![Bio Photo](/assets\images\bio-photo.jpg)
 ```
+
+---
+
+## CapsLk Prank
+
+```powershell
+clear-host
+
+Echo "Keep alive with caps lock"
+
+$WShell = New-Object -com "WScript.shell"
+
+while ($true) {
+    $WShell.sendkeys("{CAPSLOCK}")
+    start-sleep -Milliseconds 200
+    $WShell.sendkeys("{CAPSLOCK}")
+    start-sleep -Milliseconds 200
+
+}
+
+```
