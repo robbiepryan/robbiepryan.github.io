@@ -60,7 +60,7 @@ plugins:
 author:
   name   : "Robert Ryan"
   # avatar : "/assets/images/bio-photo.jpg"
-  bio    : "PowerShell / Automation Enthusiast"
+  bio    : "Sysadmin with a passion for PowerShell and automation."
   links:
     # - label: "Website"
      # icon: "fas fa-fw fa-link"
